@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!DOCTYPE html>
+<html>
+
+<style> 
+
+    div.box {
+        width: 100px;
+        text-align:center;
+        font-weight:bold;
+        height: 100px;
+        background-color: #a7ed37;
+        position: relative;
+        -webkit-animation-name: movebox;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+
+        /* Standard syntax */
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:#c46ff2; left:0px; top:0px;}
+        25%  {background-color:#f556e5; left:200px; top:0px;}
+        50%  {background-color:#5de8cc; left:200px; top:200px;}
+        75%  {background-color:#e81a4d; left:0px; top:200px;}
+        100% {background-color:#c46ff2; left:0px; top:0px;}
+    }
+
+</style>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
