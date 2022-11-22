@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    color: #0A66C3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 25%;
+    margin: auto;
+}
+  
+h2 i{
+    font-size: 24px;
+    margin-left: -5px;
+    font-weight: 800;
+}
+   
+.container {
+    width: 25%;
+    margin: auto;
+    height: 420px;
+    background: #fff;
+    box-shadow: 3px 10px 15px rgba(179, 179, 179, 0.7);
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.container .text .sign-in {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 530;
+    margin-left: 10px;
+}
+  
+.container .text .below-title {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+  
+.input {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    margin: 0px 10px 20px 10px;
+}
+  
+.your-input input{
+    width: 100%;
+    height: 50px;
+    padding-top: 1.1rem;
+    padding-left: 9px;
+    outline: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.input span {
+    display: inline-block;
+    position: absolute;
+    top:27%;
+    right: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0A66C3;
+    font-weight: 600;
+    transition: .6s;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.input span:hover {
+    background: rgba(10, 102, 195, 0.3);
+    border-radius: 12px;
+}
+  
+.your-input label {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    font-size: 1.1rem;
+    color: #8c8c8c;
+    transition: .2s;
+}
+  
+.input input:focus ~ label,
+.input input:valid ~ label{
+    top: 10%;
+    font-size: .8rem;
+    color: #000;
+}
+  
+.input input:focus {
+    border-width: 2px;
+    border-color: #0A66C3;
+}
+  
+.forgot-password-link {
+    width: 145px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0A66C3;
+    transition: .5s;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.forgot-password-link p {
+    text-align: center;
+}
+  
+.forgot-password-link:hover{
+    background: rgba(10, 102, 195, 0.3);
+    text-decoration: underline;
+}
+  
+.sign-in-button {
+    cursor: pointer;
+    height: 50px;
+    background: #0A66C3;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.sign-in-button:hover {
+    background: #004487;
+}
+  
+.join-link {
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+.join{
+    margin-left: -5px;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #0A66C3; 
+    border-radius: 12px;
+    transition: .5s;
+    font-weight: 700;
+}
+  
+.join:hover{
+    background: rgba(10, 102, 195, 0.3);
+    text-decoration: underline;
+}
